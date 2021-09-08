@@ -70,7 +70,7 @@ header nav ul li a:hover{
     width: 100%;
     height: 100vh;
     position: relative;
-    background-color: red;
+    color: yellow;
 }
 
 .product-container .product-detail{
@@ -81,9 +81,22 @@ header nav ul li a:hover{
     z-index: 1;
 }
 
+.product-container.superga{
+    background-color: red;
+}
 
-.product-detail#t-h{
-    color: yellow;
+.product-container.t-h{
+    background-color: green;
+}
+
+
+.product-container.converse{
+    background-color: yellow;
+}
+
+
+.product-detail#converse{
+    color: green;
 }
 
 
