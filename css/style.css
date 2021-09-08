@@ -12,6 +12,7 @@
 
 /*********************************************************************/
 h1{
+    display: inline-block;
     text-align: center;
     font-size: 80px;
 }
@@ -95,7 +96,7 @@ header nav ul li a:hover{
 }
 
 
-.product-detail#converse{
+.product-container#converse{
     color: green;
 }
 
